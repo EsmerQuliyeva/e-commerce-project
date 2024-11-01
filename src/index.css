@@ -1,13 +1,250 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.additionals {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.menu-btn {
+  font-size: 20px;
+  display: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  /* margin-left: 200px; */
+}
+.show-menu {
+  opacity: 1 !important;
+  visibility: visible !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 1160px;
+  }
+  .background-img {
+    width: 100%;
+  }
+  .fourth-footer {
+    display: none;
+  }
+  .discover-part {
+    width: 55% !important;
+    padding: 20px 40px !important;
+  }
+  .discover-part h1 {
+    font-size: 30px;
+  }
+  .discover-part p {
+    font-size: 10px;
+  }
+  .buy-btn {
+    padding: 5px 10px;
+    font-size: 10px;
+  }
+  .about-introduction {
+    display: none !important;
+  }
+  .fourth-footer {
+    display: none;
+  }
+  .rooms {
+    flex-direction: column;
+  }
+  .general-products {
+    flex-direction: column;
+  }
+  .slide {
+    width: 30px;
+    height: 500px;
+    margin-right: 10px;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  p {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+  .menu-btn {
+    display: block;
+  }
+  .nav-links {
+    position: absolute;
+    background-color: #333333;
+    flex-direction: column;
+    border-radius: 10px;
+    gap: 10px !important;
+    background-color: #f0f0f0;
+    z-index: 2;
+    top: 48px;
+    width: 20%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .discover-part {
+    width: 60% !important;
+    top: 30px !important;
+  }
+  .discover-part h1 {
+    font-size: 20px;
+  }
+  .discover-part p {
+    font-size: 5px;
+  }
+  .buy-btn {
+    padding: 3px 6px;
+    font-size: 5px;
+  }
+  .background-img {
+    width: 100%;
+  }
+  .rooms {
+    flex-direction: column;
+  }
+  .general-products {
+    flex-direction: column;
+  }
+  .slide {
+    width: 30px;
+    height: 500px;
+    margin-right: 10px;
+  }
+  .service-container {
+    gap: 10px;
+    padding: 20px;
+    overflow: hidden;
+  }
+  .service {
+    flex-direction: column !important;
+    align-items: center;
+  }
+  .service p {
+    font-size: 15px !important;
+  }
+  .service span {
+    font-size: 10px !important;
+  }
+  .about-introduction {
+    display: none !important;
+  }
+  .about-product-right {
+    display: flex;
+    justify-content: center;
+  }
+  .about-product-left {
+    width: 100%;
+  }
+  .names-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .about-product {
+    flex-direction: column;
+  }
+  .additional-images {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+  .menu-btn {
+    display: block;
+  }
+  .nav-links {
+    position: absolute;
+    background-color: #333333;
+    flex-direction: column;
+    border-radius: 10px;
+    gap: 10px !important;
+    background-color: #f0f0f0;
+    z-index: 2;
+    top: 48px;
+    width: 20%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  .discover-part {
+    top: 20px !important;
+    right: 10px !important;
+  }
+  .discover-part h1 {
+    font-size: 10px;
+  }
+  .discover-part span {
+    font-size: 10px;
+  }
+  .discover-part p {
+    display: none;
+  }
+  .buy-btn {
+    display: none;
+  }
+  .background-img {
+    width: 100%;
+  }
+  .rooms {
+    flex-direction: column;
+  }
+  .general-products {
+    flex-direction: column;
+  }
+  .slide {
+    width: 30px;
+    height: 500px;
+    margin-right: 10px;
+  }
+  .about-product {
+    flex-direction: column;
+  }
+  .about-introduction {
+    display: none !important;
+  }
+  .about-product-right {
+    display: flex;
+    justify-content: center;
+  }
+  .about-product-left {
+    width: 100%;
+  }
+  .additional-images {
+    flex-direction: column;
+  }
+  .service p {
+    font-size: 15px !important;
+  }
+  .service span {
+    font-size: 10px !important;
+  }
+  .first-filter {
+    display: none !important;
+  }
+  .description-page{
+    flex-direction: column;
+  }
 }

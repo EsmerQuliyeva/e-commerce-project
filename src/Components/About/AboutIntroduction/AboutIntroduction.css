@@ -1,0 +1,11 @@
+.about-introduction {
+  background-color: #f9f1e7;
+  padding: 20px;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+}
+.about-icon {
+  margin-top: 18px;
+}

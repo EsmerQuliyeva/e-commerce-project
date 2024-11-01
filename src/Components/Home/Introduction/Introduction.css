@@ -1,0 +1,41 @@
+.introduction {
+  position: relative;
+}
+.discover-part {
+  position: absolute;
+  width: 600px;
+  top: 0px;
+  right: 100px;
+  border-radius: 10px;
+  background: #fff3e3;
+  padding: 40px 80px;
+}
+.discover-part h1 {
+  color: #b88e2f;
+}
+.discover-part span {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 3px;
+  text-align: left;
+}
+.discover-part p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.buy-btn {
+  padding: 20px 60px 20px 60px;
+  gap: 10px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+  background-color: #b88e2f;
+  color: #fff3e3;
+}

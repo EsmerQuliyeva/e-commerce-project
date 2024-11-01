@@ -1,0 +1,62 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  border-top: 1px solid #0000002b;
+  border-bottom: 1px solid #0000002b;
+  padding: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.first-footer h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  margin-bottom: 50px;
+}
+
+.first-footer p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #9f9f9f;
+}
+.footer h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #9f9f9f;
+  margin-bottom: 10px;
+  /* yazilar eyni eyrden baslamali */
+}
+.footer li {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #000000;
+}
+.footer .email-input {
+  color: #9f9f9f;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid #000000;
+  margin-right: 20px;
+}
+
+.footer button {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  padding: 10px;
+  font-weight: 500;
+  line-height: 21px;
+  color: #000000;
+  border: none;
+  outline: none;
+  background: transparent;
+  border-bottom: 1px solid #000000;
+  text-transform: uppercase;
+}

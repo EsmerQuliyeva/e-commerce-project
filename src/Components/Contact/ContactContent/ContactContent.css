@@ -1,0 +1,26 @@
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+label {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+input {
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid #9f9f9f;
+  width: 400px;
+}
+.add-info {
+  width: 400px;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid #9f9f9f;
+  margin-bottom: 20px;
+}

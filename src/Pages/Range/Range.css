@@ -1,0 +1,36 @@
+.range-part {
+  margin-top: 40px;
+}
+.range-part h2 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+}
+.range-part p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  color: #666666;
+  margin: 20px;
+}
+.rooms {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.room {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.room span {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 36px;
+  text-align: center;
+}

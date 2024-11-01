@@ -1,0 +1,26 @@
+.shop-introduction {
+  position: relative;
+}
+.shop-picture img{
+  width: 100%;
+}
+.shop-content {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.shop-content h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 72px;
+  color: #000000;
+}
+.shop-content p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #000000;
+}
