@@ -20,6 +20,7 @@ const ShopIntroduction = () => {
               onClick={() => {
                 setMenu("/");
               }}
+              className={menu === "Home" ? "active-link" : ""}
             >
               Home
             </Link>
@@ -30,6 +31,7 @@ const ShopIntroduction = () => {
               onClick={() => {
                 setMenu("/shop");
               }}
+              className={menu === "Shop" ? "active-link" : ""}
             >
               Shop
             </Link>

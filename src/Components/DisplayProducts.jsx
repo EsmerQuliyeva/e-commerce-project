@@ -1,5 +1,4 @@
 import React, { useState, useContext } from "react";
-import all_products from "../assets/all_products.json";
 import { useNavigate } from "react-router-dom";
 import Item from "../Components/Item/Item";
 import { dataContext } from "../Pages/Context";

@@ -23,6 +23,7 @@ const Footer = () => {
                 onClick={() => {
                   setMenu("/");
                 }}
+                className={menu === "Home" ? "active-link" : ""}
               >
                 Home
               </Link>
@@ -34,6 +35,7 @@ const Footer = () => {
                 onClick={() => {
                   setMenu("/shop");
                 }}
+                className={menu === "Shop" ? "active-link" : ""}
               >
                 Shop
               </Link>
@@ -43,8 +45,9 @@ const Footer = () => {
               <Link
                 to="/contact"
                 onClick={() => {
-                  setMenu("/shop");
+                  setMenu("/contact");
                 }}
+                className={menu === "Contact" ? "active-link" : ""}
               >
                 Contact
               </Link>
